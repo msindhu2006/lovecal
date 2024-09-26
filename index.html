@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: aliceblue;
+        }
+        #lovecalculator{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px black;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input{
+            padding: 10px;
+            margin: 10px ;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button{
+            padding: 10px 20px;
+            background-color: rebeccapurple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: blue;
+        }
+        #result{
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: rgb(81, 2, 15);
+        }
+    </style>
+</head>
+<body>
+    <div id="lovecalculator">
+        <h1>Love Calculator</h1>
+        <p>Enter your names to calculate your love percentage</p>
+        <input type="text" id="yourname" placeholder="your name">
+        <input type="text" id="partnername" placeholder="your partner name">
+        <button onclick="calculatelove()">Calculate Love</button>
+        <div id="result"></div>
+    </div>
+    <script src="java.js">
+      
+    </script>
+</body>
+</html>
